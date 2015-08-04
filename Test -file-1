@@ -1,0 +1,38 @@
+#!/bin/bash
+clear
+reset
+echo
+echo "---------------------------------------------------------------"
+echo "Current user On the system is :"
+                who
+echo "---------------------------------------------------------------"
+echo
+echo "Current Date and time is : "
+                date
+
+echo "---------------------------------------------------------------"
+echo
+echo "The System Hostname is : $HOSTNAME"
+echo "---------------------------------------------------------------"
+echo
+echo "Current Disk usage is : " 
+df
+
+echo  "--------------------------------------------------------------"
+echo
+echo "The current Working Directory is :"
+echo $PWD
+
+echo "---------------------------------------------------------------"
+echo
+echo "The Path name to the Bash Shell is :"
+echo $BASH
+echo "---------------------------------------------------------------"
+echo
+echo "The List Of all file present in this folder are :"
+ls -a
+echo "---------------------------------------------------------------"
+echo
+echo "The Current Shell is : "
+echo $SHELL
+echo "---------------------------------------------------------------"
