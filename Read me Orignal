@@ -1,0 +1,29 @@
+Hello, Read me file will tell you how to execute these files in LINUX :
+
+Instruction :
+
+1.Use filezilla to transfer these files to your Linux server.
+	
+	*Things to remember :
+			**Check your Linux IP address (command : ifconfig)
+			**Change the IP to 10.1.5.200 (command : netconfig)
+			**make sure while connecting to fillzilla, you Network addapter is HOST-ONLY and connected.
+
+			
+2.Transfer these files to Mango Folder.
+3.Now go to Mango Folder from "TERMINAL". (command : cd /home/mango)
+4.Change the file Permission of these files. (command : chmod +x "Filename")
+
+5.Final step : Execution
+In order to run the script use command "./filename"
+
+example to run a file : 
+
+./test
+./test.sh
+./test-second
+./test-third
+
+GOOD luck .!! Don't feel scared.
+
+KNOCK OFF THE "T" OF CAN'T !!
