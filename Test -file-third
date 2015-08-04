@@ -1,0 +1,42 @@
+#!/bin/bash
+reset
+clear
+
+echo -e "| ----------- MENU------------ |
+
+What would you like to see ?
+
+1. Current Date and Time.
+2.User Who are currently Logged In.
+3.Directory Listing.
+
+* Enter your option (1/2/3) and any other value to exist  "
+
+echo 
+read option
+
+while [ $option = "1" -o $option = "2" -o $option = "3" ]
+do
+
+if [ $option = "1" ]
+then
+	echo "The date is :"
+	date
+elif [ $option = "2" ]
+then
+	echo "The User who is currently logged in is :"
+who
+
+elif [ $option = "3" ]
+then 
+	echo "Directory List is :"
+ ls -l
+
+else
+	echo "Thank You"
+
+fi
+echo "|----------Your First session is Over-----------|"
+echo "You can Enter onother choice (1/2/3) Or anyother value to exit"
+read option
+done
