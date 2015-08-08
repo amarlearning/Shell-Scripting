@@ -7,15 +7,15 @@ Question : Write a Bash Program which compare two number a and b ,
 		   
 
 Example : Input test case : 5 4  /* In this line a=5 and b=4 */
-							4 3  /* In this line a=5 and b=3 */
-							10 8 /* In this line a=10 and b=8 */
-							2 8  /* In this line a=2 and b=8 */
+			    4 3  /* In this line a=5 and b=3 */
+			    10 8 /* In this line a=10 and b=8 */
+			    2 8  /* In this line a=2 and b=8 */
 							
 					
 		  Output should be : correct
-							 correct
-							 correct
-							 incorrect
+				     correct
+				     correct
+				     incorrect
 							 
 /*All the Best */
 
